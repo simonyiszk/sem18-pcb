@@ -2772,7 +2772,7 @@
 		)
 		(uuid "2bd867f5-72dd-4b82-97a2-a52ddecf9bfb")
 	)
-	(text "TODO: LED backlight needs 2.9--3.1 V -- and 20 mA exactly"
+	(text "TODO: LED backlight needs 2.9--3.1 V -- and 20 mA exactly -> make a current generator?"
 		(exclude_from_sim no)
 		(at 175.514 68.58 0)
 		(effects

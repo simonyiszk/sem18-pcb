@@ -1780,6 +1780,26 @@
 		)
 		(uuid "39d05647-5d95-4e21-aa51-e189f62bf8c6")
 	)
+	(text "SPI1"
+		(exclude_from_sim no)
+		(at 156.464 86.868 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "458ae05e-4805-4719-8205-59271a2728c1")
+	)
+	(text "TODO: 32 kHz crystal"
+		(exclude_from_sim no)
+		(at 98.806 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89907c28-b412-46db-a445-1f644e1b63f5")
+	)
 	(text "Programming/debug"
 		(exclude_from_sim no)
 		(at 223.012 94.488 0)
@@ -1803,6 +1823,26 @@
 			(justify left)
 		)
 		(uuid "a4bf87fc-2694-4ef5-aa43-3a88cb1f0e21")
+	)
+	(text "TODO: maybe add a QSPI flash?"
+		(exclude_from_sim no)
+		(at 121.158 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b82f66dc-b068-4ac4-ba10-36d1248b7dd4")
+	)
+	(text "TODO: LCD"
+		(exclude_from_sim no)
+		(at 77.216 157.988 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4b8825b-ab29-4ee5-9640-a77895a64654")
 	)
 	(junction
 		(at 149.86 53.34)
@@ -1872,6 +1912,26 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 88.9) (xy 149.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d7248b-04f6-45bd-a74e-0b3c784f8391")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 149.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e34915f-1b3e-48cb-99c9-c2ceec9d23c4")
+	)
+	(wire
+		(pts
 			(xy 102.87 73.66) (xy 110.49 73.66)
 		)
 		(stroke
@@ -1919,6 +1979,26 @@
 			(type default)
 		)
 		(uuid "37c8b804-8fa1-4830-a954-35243b13975a")
+	)
+	(wire
+		(pts
+			(xy 135.89 101.6) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ce6afe-7abc-4e6a-b2ce-46a4760a4e16")
+	)
+	(wire
+		(pts
+			(xy 135.89 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c2c9c9-496d-4f04-ad70-1e69d938dd21")
 	)
 	(wire
 		(pts
@@ -1972,6 +2052,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 83.82) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acfe7271-f0a0-4a8f-8348-15867cc11c10")
+	)
+	(wire
+		(pts
 			(xy 130.81 53.34) (xy 139.7 53.34)
 		)
 		(stroke
@@ -1999,6 +2089,16 @@
 			(type default)
 		)
 		(uuid "c15649ed-5fcb-475c-9446-50b49256eaa5")
+	)
+	(wire
+		(pts
+			(xy 135.89 86.36) (xy 149.86 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5bc3abb-d011-4a03-9c00-1fc09194a3ec")
 	)
 	(wire
 		(pts
@@ -2060,6 +2160,26 @@
 		)
 		(uuid "27728c81-6e26-4edc-9402-d563fb49268e")
 	)
+	(label "LCD_MISO"
+		(at 78.74 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a96f1d6-3ba1-4854-8ec9-33bbd9586ae6")
+	)
+	(label "LCD_nSS"
+		(at 78.74 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "316f7313-6215-41ea-9d8f-5802b4090212")
+	)
 	(label "nRST"
 		(at 241.3 119.38 0)
 		(effects
@@ -2090,6 +2210,36 @@
 		)
 		(uuid "73d8b4c6-d939-4bdf-9bef-91e314244ac3")
 	)
+	(label "LCD_MISO"
+		(at 149.86 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7be51610-a00d-4ade-8ef3-2dd0548fe907")
+	)
+	(label "LCD_MOSI"
+		(at 149.86 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81b85025-f6f8-499e-a824-3b0b58954f61")
+	)
+	(label "LCD_SCK"
+		(at 149.86 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9dc2d12c-666b-4d23-990e-c027e33be761")
+	)
 	(label "SWCLK"
 		(at 144.78 109.22 180)
 		(effects
@@ -2099,6 +2249,58 @@
 			(justify right bottom)
 		)
 		(uuid "b4654a7a-6f21-4bde-ba8c-7fa85a718b36")
+	)
+	(label "LCD_MOSI"
+		(at 78.74 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c671c430-598a-4508-9935-64d1f2309af5")
+	)
+	(label "LCD_nSS"
+		(at 149.86 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "daffc0d8-2222-4112-92ab-3339270a0400")
+	)
+	(label "LCD_SCK"
+		(at 78.74 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dca839b2-7b3b-4b46-bfee-6f8e08aa51de")
+	)
+	(hierarchical_label "USB_DM"
+		(shape bidirectional)
+		(at 149.86 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c0b502a-2e82-4549-9d21-fccd3be5ff2e")
+	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 149.86 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d3f9461-686b-4724-9460-91a0331e81a8")
 	)
 	(symbol
 		(lib_id "power:VDD")
