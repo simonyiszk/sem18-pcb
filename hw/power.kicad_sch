@@ -3070,9 +3070,9 @@
 		)
 		(uuid "a09b2c12-e0d2-47d2-95e2-25e8c009629b")
 	)
-	(text "<-- Output set to 3.0 V."
+	(text "^^ Output set to 3.0 V."
 		(exclude_from_sim no)
-		(at 225.044 50.546 0)
+		(at 212.852 62.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3224,6 +3224,12 @@
 		(uuid "c9972611-b978-482f-90c2-bca9072d0fb4")
 	)
 	(junction
+		(at 203.2 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deba0a67-beb9-42ad-929a-ea3130639a44")
+	)
+	(junction
 		(at 87.63 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3288,6 +3294,16 @@
 			(type default)
 		)
 		(uuid "0be59b9f-c290-49e5-85b6-a93987268abd")
+	)
+	(wire
+		(pts
+			(xy 214.63 43.18) (xy 214.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a2284c-708d-49ba-b810-5c45f4e45780")
 	)
 	(wire
 		(pts
@@ -3491,6 +3507,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 43.18) (xy 214.63 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa4637a-ffd7-4280-b2ba-8ef0958b5d65")
+	)
+	(wire
+		(pts
 			(xy 87.63 140.97) (xy 87.63 151.13)
 		)
 		(stroke
@@ -3678,6 +3704,16 @@
 			(type default)
 		)
 		(uuid "c3225b00-1243-4102-b3d2-de0a0ecad865")
+	)
+	(wire
+		(pts
+			(xy 203.2 53.34) (xy 214.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c592a49c-06b8-4c44-b6e7-d404af0b4c48")
 	)
 	(wire
 		(pts
@@ -4188,6 +4224,76 @@
 			(project "sem18"
 				(path "/d844aefd-19cf-4889-9465-41f3f1184bf3/0a7f8c5e-87fd-44f3-ac0d-848b1ec15823"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 214.63 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d9e1f69-7be1-4bed-93c6-d4f2a95d5cd0")
+		(property "Reference" "R4"
+			(at 217.17 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 217.17 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 216.408 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 214.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb9016ec-f325-4ce4-a098-789cc769a41f")
+		)
+		(pin "1"
+			(uuid "22d84697-94b2-47ba-b7d7-9553814bd7bc")
+		)
+		(instances
+			(project "sem18"
+				(path "/d844aefd-19cf-4889-9465-41f3f1184bf3/0a7f8c5e-87fd-44f3-ac0d-848b1ec15823"
+					(reference "R4")
 					(unit 1)
 				)
 			)

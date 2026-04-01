@@ -2201,6 +2201,16 @@
 		)
 		(uuid "458ae05e-4805-4719-8205-59271a2728c1")
 	)
+	(text "TODO: csatlakoztatni"
+		(exclude_from_sim no)
+		(at 167.386 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9260303f-0906-4e9a-b4ae-23eda1c05211")
+	)
 	(text "Programming/debug"
 		(exclude_from_sim no)
 		(at 229.362 117.348 0)
@@ -2850,6 +2860,16 @@
 		)
 		(uuid "217be520-1b46-4447-857a-545c2b88a3d6")
 	)
+	(label "LCD_nRST"
+		(at 172.72 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2550e0d7-b9c5-4a29-81f3-79b92e524bdc")
+	)
 	(label "SWCLK"
 		(at 247.65 134.62 0)
 		(effects
@@ -2940,6 +2960,26 @@
 		)
 		(uuid "580a10bd-c0cc-4236-b71b-327b62f9cb36")
 	)
+	(label "LCD_nRST"
+		(at 48.26 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66d59257-00a9-402e-a475-99802558c90a")
+	)
+	(label "LCD_BL"
+		(at 172.72 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66d866bb-7eca-489c-86f3-235ddfb29232")
+	)
 	(label "nRST"
 		(at 93.98 50.8 0)
 		(effects
@@ -2950,6 +2990,16 @@
 		)
 		(uuid "73d8b4c6-d939-4bdf-9bef-91e314244ac3")
 	)
+	(label "LCD_DC"
+		(at 172.72 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "740f1d73-93c0-4710-95e1-74aaa2e248ef")
+	)
 	(label "FLASH_D3"
 		(at 148.59 66.04 180)
 		(effects
@@ -2959,6 +3009,16 @@
 			(justify right bottom)
 		)
 		(uuid "ab020f6c-09d0-4d1a-baad-afaaa98d3fad")
+	)
+	(label "LCD_BL"
+		(at 48.26 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "adbaceb8-dfd5-4d0a-9409-1ddf318d0f25")
 	)
 	(label "FLASH_D0"
 		(at 97.79 71.12 0)
@@ -3009,6 +3069,16 @@
 			(justify left bottom)
 		)
 		(uuid "cb3b55ce-37ee-4378-8d33-63fa6c0e23cb")
+	)
+	(label "LCD_DC"
+		(at 48.26 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb70580e-742a-4568-b780-1b09142e8628")
 	)
 	(label "FLASH_SCK"
 		(at 149.86 58.42 180)
