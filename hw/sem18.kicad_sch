@@ -1732,6 +1732,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 80.01) (xy 213.36 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0170ff04-1e76-4489-a019-767825e953c2")
+	)
+	(wire
+		(pts
 			(xy 72.39 74.93) (xy 80.01 74.93)
 		)
 		(stroke
@@ -1829,6 +1839,26 @@
 			(type default)
 		)
 		(uuid "62d345cd-2c26-4415-beb3-23e5ce99db4e")
+	)
+	(wire
+		(pts
+			(xy 215.9 80.01) (xy 215.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6474788e-8fe8-41f0-a515-edd0f51b93b8")
+	)
+	(wire
+		(pts
+			(xy 210.82 80.01) (xy 210.82 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1a75fb-4fd2-487f-be48-72969091cf1c")
 	)
 	(wire
 		(pts
@@ -2685,6 +2715,36 @@
 				(justify left)
 			)
 		)
+		(pin "Buck_Mode" input
+			(at 215.9 80.01 270)
+			(uuid "34aad1cb-fb4e-4ed1-b87c-fbe995a0d354")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHARGER_nCharge" output
+			(at 213.36 80.01 270)
+			(uuid "1e5b1f39-96aa-4573-87f5-3facdef6bedb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHARGER_Standby" output
+			(at 210.82 80.01 270)
+			(uuid "79a512ce-467b-44da-9f45-acb69260d3c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "sem18"
 				(path "/d844aefd-19cf-4889-9465-41f3f1184bf3"
@@ -2695,7 +2755,7 @@
 	)
 	(sheet
 		(at 173.99 92.71)
-		(size 43.18 43.18)
+		(size 44.45 43.18)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2745,6 +2805,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Buck_Mode" output
+			(at 215.9 92.71 90)
+			(uuid "9f47af66-71ad-42b6-a767-1b8a0db3e16a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Charger_nCharge" input
+			(at 213.36 92.71 90)
+			(uuid "8c12712a-b8e8-4ecf-bb1a-21b3636c934e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Charger_Standby" input
+			(at 210.82 92.71 90)
+			(uuid "bf1253ef-d550-4ae8-a4b3-c5e43d712ab0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
