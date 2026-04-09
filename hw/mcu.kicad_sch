@@ -5931,7 +5931,7 @@
 		)
 		(uuid "39d05647-5d95-4e21-aa51-e189f62bf8c6")
 	)
-	(text "Crystal        @ LSE\nLCD           @ SPI2 half-duplex\nQSPI Flash    @ QSPI Bank 1\nBuzzer        @ TIM4 Channel 2\nLCD Backlight @ GPIO or TIM3 Channel 1\n\nNote: PC13 can serve as RTC calibration output."
+	(text "Crystal        @ LSE\nLCD           @ SPI2 half-duplex\nQSPI Flash    @ QSPI Bank 1\nBuzzer        @ TIM4 Channel 2\nLCD Backlight @ GPIO or TIM3 Channel 2\n\nNote: PC13 can serve as RTC calibration output."
 		(exclude_from_sim no)
 		(at 15.24 118.11 0)
 		(effects
@@ -7803,6 +7803,16 @@
 		)
 		(uuid "012aceef-d55b-45f4-ab92-68775b385128")
 	)
+	(label "LCD_BL"
+		(at 52.07 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "038041f2-742f-4818-9876-bd9f23534867")
+	)
 	(label "FLASH_SCK"
 		(at 111.76 105.41 180)
 		(effects
@@ -7822,16 +7832,6 @@
 			(justify left bottom)
 		)
 		(uuid "0b6f4911-c59f-44c2-a873-caf2bb66e6a6")
-	)
-	(label "LCD_nPWR"
-		(at 52.07 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0eadf57f-920d-4a42-8e3d-f795106e8f7c")
 	)
 	(label "BUTTON_SW4_Up"
 		(at 179.07 148.59 0)
@@ -7993,6 +7993,16 @@
 		)
 		(uuid "553baf5b-de7c-42b9-bbb2-c441b806bf36")
 	)
+	(label "LCD_nPWR"
+		(at 52.07 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58028e6e-7d60-49b0-a867-749fda96d777")
+	)
 	(label "SWDIO"
 		(at 109.22 69.85 180)
 		(effects
@@ -8012,16 +8022,6 @@
 			(justify right bottom)
 		)
 		(uuid "5a304fdb-58a6-475f-bd9f-7179c11e4735")
-	)
-	(label "LCD_BL"
-		(at 52.07 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6025b246-91f8-4604-b602-3286f6b1083f")
 	)
 	(label "EXT_PA10"
 		(at 267.97 130.81 180)
