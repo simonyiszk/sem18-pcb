@@ -4566,7 +4566,7 @@
 			(uuid "054918f0-2fed-4583-b7a0-0a8fea9f4eef")
 		)
 		(instances
-			(project ""
+			(project "sem18"
 				(path "/d844aefd-19cf-4889-9465-41f3f1184bf3/0a7f8c5e-87fd-44f3-ac0d-848b1ec15823"
 					(reference "TP1")
 					(unit 1)
@@ -5393,7 +5393,7 @@
 			(uuid "cc096f66-5441-4c2a-b6c8-1b13614e718e")
 		)
 		(instances
-			(project ""
+			(project "sem18"
 				(path "/d844aefd-19cf-4889-9465-41f3f1184bf3/0a7f8c5e-87fd-44f3-ac0d-848b1ec15823"
 					(reference "#PWR029")
 					(unit 1)
