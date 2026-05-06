@@ -5910,16 +5910,6 @@
 		)
 		(uuid "1e52f1ef-1ba1-496a-ba34-c9229e5c574f")
 	)
-	(text "<-- This might need to be changed..."
-		(exclude_from_sim no)
-		(at 172.72 167.132 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "20bddd49-056e-432a-84fe-9155f766c28f")
-	)
 	(text "Pinout compatible with SEM-karifa-2023.\nWatch out for the operating voltage (3.0V)!"
 		(exclude_from_sim no)
 		(at 237.744 120.904 0)
@@ -11627,7 +11617,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 149.86 167.6399 0)
 			(effects
 				(font
@@ -11899,7 +11889,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "20pF"
 			(at 27.94 105.4099 0)
 			(effects
 				(font
@@ -13020,7 +13010,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TBD"
+		(property "Value" "20pF"
 			(at 40.64 105.4099 0)
 			(effects
 				(font
