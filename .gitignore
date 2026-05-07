@@ -4,3 +4,5 @@
 /hw/sem18-backups
 /hw/fab/*
 
+/fw/EWARM/fw
+/fw/EWARM/settings
