@@ -6065,6 +6065,16 @@
 		)
 		(uuid "d65624bb-f5ae-4d63-9e81-0a673e5fb629")
 	)
+	(text "Wakeup -->"
+		(exclude_from_sim no)
+		(at 41.148 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ec423115-f605-408b-88f8-a177b1a13eae")
+	)
 	(junction
 		(at 181.61 109.22)
 		(diameter 0)
@@ -7863,7 +7873,7 @@
 		)
 		(uuid "21d28ddd-6ac0-48ed-9bc7-510ae2d567ef")
 	)
-	(label "BUTTON_WAKE"
+	(label "BUTTON_SW1"
 		(at 49.53 46.99 0)
 		(effects
 			(font
@@ -8003,7 +8013,7 @@
 		)
 		(uuid "580a10bd-c0cc-4236-b71b-327b62f9cb36")
 	)
-	(label "BUTTON_WAKE"
+	(label "BUTTON_SW1"
 		(at 198.12 109.22 180)
 		(effects
 			(font

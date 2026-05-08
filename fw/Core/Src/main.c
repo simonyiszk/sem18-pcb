@@ -198,7 +198,7 @@ int main(void)
       ST7789_Fill_Color( BLACK );
     }
     
-    if( GPIO_PIN_SET == HAL_GPIO_ReadPin( BUTTON_WAKE_GPIO_Port, BUTTON_WAKE_Pin ) )
+    if( GPIO_PIN_SET == HAL_GPIO_ReadPin( BUTTON_SW1_GPIO_Port, BUTTON_SW1_Pin ) )
     {
       uint32_t u32NewPeriod;
       for( uint32_t u32Frequency = 440u; u32Frequency < 4000u; u32Frequency += 10 )

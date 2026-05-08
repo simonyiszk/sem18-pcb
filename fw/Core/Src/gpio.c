@@ -138,11 +138,11 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_VERY_HIGH;
   HAL_GPIO_Init(VMEAS_GND_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : BUTTON_WAKE_Pin */
-  GPIO_InitStruct.Pin = BUTTON_WAKE_Pin;
+  /*Configure GPIO pin : BUTTON_SW1_Pin */
+  GPIO_InitStruct.Pin = BUTTON_SW1_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLDOWN;
-  HAL_GPIO_Init(BUTTON_WAKE_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(BUTTON_SW1_GPIO_Port, &GPIO_InitStruct);
 
 }
 

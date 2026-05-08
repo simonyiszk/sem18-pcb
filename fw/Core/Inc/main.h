@@ -100,8 +100,8 @@ void Error_Handler(void);
 #define VMEAS_GND_GPIO_Port GPIOB
 #define BUZZER_Pin GPIO_PIN_7
 #define BUZZER_GPIO_Port GPIOB
-#define BUTTON_WAKE_Pin GPIO_PIN_3
-#define BUTTON_WAKE_GPIO_Port GPIOH
+#define BUTTON_SW1_Pin GPIO_PIN_3
+#define BUTTON_SW1_GPIO_Port GPIOH
 
 /* USER CODE BEGIN Private defines */
 
